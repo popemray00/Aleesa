@@ -1,6 +1,7 @@
 import React from 'react';
 import './Home.css';
 import { Parallax } from "react-parallax";
+import { FaInstagram } from "react-icons/fa";
 
 const image1 =
     "https://pixnio.com/free-images/2017/02/25/2017-02-25-06-48-04.jpg"
@@ -23,6 +24,11 @@ class Home extends React.Component {
           <div className="mainbody">
             <h1>My Commitment to you!</h1>
             <p>Is to be the best</p>
+          </div>
+
+          <div className="social">
+          <a href="https://www.instagram.com/hair_by_aleesa/" target="blank"><FaInstagram size="5em" className="Instagram" /></a>
+            
           </div>
         </div>
     )
