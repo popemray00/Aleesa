@@ -31,6 +31,7 @@
   .quote {
     background: black;
     color: white;
+    text-align: center;
   }
 
   .quote h1 {
@@ -43,6 +44,45 @@
 
   .mainbody {
     text-align: center;
+    border-bottom: black;
+    border-style: hidden hidden dashed hidden;
+    border-width: 10px;
+  }
+
+  .mainbody p {
+    font-size: 20px;
+    padding: 0px 20px 0px 20px;
+  }
+
+  .mainimg {
+    height: 30em;
+  }
+
+  .social {
+    text-align: center;
+    border-radius: 2em;
+    margin: 3em 0em 3em 0em;
+  }
+
+  .arrow {
+    color: blue;
+  }
+
+  .Instagram{
+    color: white;
+    background-color:black;
+    border-radius: 2em;
+  }
+
+  .Instagram:hover {
+    color: black;
+    background-color: white;
+    border-radius: 2em;
+  }
+
+  .footer {
+    color: white;
+    background-color: black;
   }
 
 
