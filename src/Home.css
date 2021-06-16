@@ -12,6 +12,10 @@
     background-size: cover;
   }
 
+  .para2 {
+    background-position: top;
+  }
+
   .textbox {
     background: transparent;
     font-size: 150px;
@@ -22,6 +26,26 @@
     top: 35%;
     left: 83%;
     transform: translate(-50%,-50%);
+  }
+
+  .textbox2 {
+    background: transparent;
+    font-style: normal;
+    font-family: cursive;
+    padding: 10;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+  }
+
+  .textbox2 h1 {
+    font-size: 50px;
+  }
+
+  .textbox2 p {
+    font-size: 18px;
   }
 
   #name {
