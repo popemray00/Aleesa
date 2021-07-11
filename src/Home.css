@@ -13,7 +13,8 @@
   }
 
   .para2 {
-    background-position: top;
+    background-position: center;
+    background-position-x: 10em;
   }
 
   .textbox {
@@ -67,6 +68,7 @@
   }
 
   .mainbody {
+    margin-top: 2em;
     text-align: center;
     border-bottom: black;
     border-style: hidden hidden dashed hidden;
@@ -79,13 +81,21 @@
   }
 
   .mainimg {
-    height: 30em;
+    height: 35em;
+    float: left;
   }
 
-  .social {
+  .carousel {
+    width: 70%;
+    height: 100%;
+    padding-top: 40px;
+    margin-left: 230px;
+  }
+
+  .work {
     text-align: center;
     border-radius: 2em;
-    margin: 3em 0em 3em 0em;
+    margin-bottom: 3em;
   }
 
   .arrow {
