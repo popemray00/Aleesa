@@ -71,22 +71,14 @@ Quam elementum pulvinar etiam non quam. Ultrices eros in cursus turpis massa tin
         </Carousel>
 
           
-            <h1>Check Out More Work!</h1>
-            <BsCaretDownFill size="4em" className="arrow"/>
-              <br></br>
-            <BsCaretDownFill size="4em" className="arrow"/>
-              <br></br>
-            <BsCaretDownFill size="4em"className="arrow"/>
-              <br></br>
+            
             <a href="https://www.instagram.com/hair_by_aleesa/" target="blank"><FaInstagram size="10em" className="Instagram" /></a>
           </div>
 
           <div className="footer">
             <h1>Contact Me...</h1>
             <ul>
-              <li>1</li>
-              <li>2</li>
-              <li>3</li>
+              <li>Email: <a href="hairbya@gmail.com">hairbya@gmail.com</a></li>
             </ul>
           </div>
         </div>
