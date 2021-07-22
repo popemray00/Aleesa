@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
+
 /* For mobile phones: */
 [class*="col-"] {
   width: 100%;
@@ -16,10 +18,6 @@
     0%   { top:600px;}
     25%  { top:0px;}
   }
-
-
-
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
 
   .styles {
     font-family: sans-serif;
@@ -78,18 +76,14 @@
 
   .quote h1 {
     font-size: 100px;
-    font-family: dancing script;
+    font-family: "Dancing Script", cursive;
     text-align: center;
     padding-top: 100px;
     padding-bottom: 100px;
   }
 
   .mainbody {
-    margin-top: 2em;
     text-align: center;
-    border-bottom: black;
-    border-style: hidden hidden dashed hidden;
-    border-width: 10px;
   }
 
   .mainbody p {
@@ -109,9 +103,6 @@
     background-color: lightgray;
   }
 
-  .arrow {
-    color: blue;
-  }
 
   .Instagram{
     color: white;
@@ -160,7 +151,7 @@
   background: transparent;
   font-size: 150px;
   font-style: italic;
-  font-family: 'Dancing Script', cursive;;
+  font-family: 'Dancing Script', cursive;
   padding: 20;
   position: absolute;
   top: 35%;
@@ -204,7 +195,7 @@
 
 .quote h1 {
   font-size: 100px;
-  font-family: dancing script;
+  font-family: "Dancing script", cursive;
   text-align: center;
   padding-top: 100px;
   padding-bottom: 100px;
@@ -263,5 +254,4 @@
 .footer li {
   font-size: 2em;
 }
-
-  }
+}

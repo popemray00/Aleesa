@@ -37,7 +37,7 @@ const Carouselslide = () => {
             <img
               className="d-block w-100"
               src="slide5.jpg"
-              alt="Ninth slide"
+              alt="5th slide"
             />
         </Carousel.Item>
         </Carousel>

@@ -10,8 +10,7 @@ const image1 =
 class Home extends React.Component {
   render() {
     return (
-        <div className="styles">
-          
+        <div className="styles">          
           <Parallax bgImage={image1} strength={400}>
             <div style={{ height: 900 }}>
               <div className="textbox">Hair By <span id="name">Aleesa</span></div>
@@ -30,9 +29,8 @@ class Home extends React.Component {
           </div>
 
           <div className="work">
-            <Carouselslide />
-          
-            
+
+          <Carouselslide />
             <a href="https://www.instagram.com/hair_by_aleesa/" target="blank"><FaInstagram size="10em" className="Instagram" /></a>
           </div>
 
