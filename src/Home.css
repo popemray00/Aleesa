@@ -93,6 +93,10 @@
     margin-bottom: 2em;
   }
 
+  .carousel img {
+    height: 65em;
+  }
+
   .work {
     text-align: center;
     border-radius: 10em;
@@ -119,6 +123,10 @@
   .footer {
     color: white;
     background-color: black;
+  }
+
+  .footer h1 {
+    font-size: 3em;
   }
 
   .footer li {
