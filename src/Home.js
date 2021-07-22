@@ -2,8 +2,7 @@ import React from 'react';
 import './Home.css';
 import { Parallax } from "react-parallax";
 import { FaInstagram } from "react-icons/fa";
-import { BsCaretDownFill } from "react-icons/bs";
-import Carousel from 'react-bootstrap/Carousel'
+import Carouselslide from "./Carousel.js" 
 
 const image1 =
     "https://pixnio.com/free-images/2017/02/25/2017-02-25-06-48-04.jpg"
@@ -31,44 +30,7 @@ class Home extends React.Component {
           </div>
 
           <div className="work">
-          <Carousel>
-         <Carousel.Item>
-            <img
-              className="d-block w-100"
-              src="slide1.jpg"
-              alt="First slide"
-            />
-         </Carousel.Item>
-        <Carousel.Item>
-            <img
-              className="d-block w-100"
-              src="slide2.jpg"
-              alt="Sixth slide"
-            />
-        </Carousel.Item>
-        <Carousel.Item>
-            <img
-              className="d-block w-100"
-              src="slide3.jpg"
-              alt="Seventh slide"
-            />
-        </Carousel.Item>
-        <Carousel.Item>
-            <img
-              className="d-block w-100"
-              src="slide4.jpg"
-              alt="Eight slide"
-            />
-        </Carousel.Item>
-        <Carousel.Item>
-            <img
-              className="d-block w-100"
-              src="slide5.jpg"
-              alt="Ninth slide"
-            />
-        </Carousel.Item>
-        </Carousel>
-
+            <Carouselslide />
           
             
             <a href="https://www.instagram.com/hair_by_aleesa/" target="blank"><FaInstagram size="10em" className="Instagram" /></a>
@@ -76,9 +38,15 @@ class Home extends React.Component {
 
           <div className="footer">
             <h1>Contact Me...</h1>
+            <br/>
+            <br/>
             <ul>
-              <li>Email: <a href="hairbya@gmail.com">hairbya@gmail.com</a></li>
+              <li>Email: <a href="mailto:hairbya@gmail.com">hairbya@gmail.com</a></li>
+              <br/>
+              <li>Instagram: <a href="https://www.instagram.com/hair_by_aleesa/" target="blank">Hair_By_Aleesa</a></li>
             </ul>
+            <br/>
+            <br/>
           </div>
         </div>
     )

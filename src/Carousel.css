@@ -1,0 +1,35 @@
+
+@media only screen and (min-width: 768px) {
+
+.carousel {
+    width: 70%;
+    height: 100%;
+    padding-top: 40px;
+    margin-left: 230px;
+    margin-bottom: 2em;
+  }
+
+  .carousel img {
+    height: 50em;
+    border-radius: 4em;
+  }
+
+}
+
+@media only screen and (max-width: 767px) {
+
+    .carousel {
+        width: 70%;
+        height: 100%;
+        padding-top: 40px;
+        margin-left: 4.5em;
+        margin-bottom: 2em;
+        text-align: center;
+      }
+      
+      .carousel img {
+        height: 35em;
+        border-radius: 3em;
+      }
+
+}

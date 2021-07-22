@@ -1,3 +1,24 @@
+/* For mobile phones: */
+[class*="col-"] {
+  width: 100%;
+}
+
+@media only screen and (min-width: 768px) {
+
+  /* Safari 4.0 - 8.0 */
+  @-webkit-keyframes example {
+    0%   {bottom:200px; top:0px;}
+    25%  {left:200px; top:0px;}
+  }
+
+  /* Standard syntax */
+  @keyframes example {
+    0%   { top:600px;}
+    25%  { top:0px;}
+  }
+
+
+
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
 
   .styles {
@@ -12,11 +33,6 @@
     background-size: cover;
   }
 
-  .para2 {
-    background-position: center;
-    background-position-x: 10em;
-  }
-
   .textbox {
     background: transparent;
     font-size: 150px;
@@ -25,7 +41,8 @@
     padding: 20;
     position: absolute;
     top: 35%;
-    left: 83%;
+    left: 78%;
+    color:white;
     transform: translate(-50%,-50%);
   }
 
@@ -85,18 +102,6 @@
     float: left;
   }
 
-  .carousel {
-    width: 70%;
-    height: 100%;
-    padding-top: 40px;
-    margin-left: 230px;
-    margin-bottom: 2em;
-  }
-
-  .carousel img {
-    height: 65em;
-  }
-
   .work {
     text-align: center;
     border-radius: 10em;
@@ -126,11 +131,137 @@
   }
 
   .footer h1 {
-    font-size: 3em;
+    font-size: 4em;
   }
 
   .footer li {
     font-size: 3em;
   }
+}
 
+@media only screen and (max-width: 767px) {
 
+  
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
+
+.styles {
+  font-family: sans-serif;
+}
+
+.parallax {
+  min-height: 700px; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.textbox {
+  background: transparent;
+  font-size: 150px;
+  font-style: italic;
+  font-family: 'Dancing Script', cursive;;
+  padding: 20;
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  color: white;
+}
+
+.textbox2 {
+  background: transparent;
+  font-style: normal;
+  font-family: cursive;
+  padding: 10;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  color: white;
+}
+
+.textbox2 h1 {
+  font-size: 50px;
+}
+
+.textbox2 p {
+  font-size: 18px;
+}
+
+#name {
+  color:black;
+}
+
+.quote {
+  background: black;
+  color: white;
+  text-align: center;
+  border-top: 3px;
+  border-color: white;
+  border-style: solid hidden solid hidden;
+}
+
+.quote h1 {
+  font-size: 100px;
+  font-family: dancing script;
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.mainbody {
+  text-align: center;
+  border-bottom: black;
+  border-style: hidden hidden dashed hidden;
+  border-width: 10px;
+}
+
+.mainbody p {
+  font-size: 20px;
+  padding: 0px 20px 0px 20px;
+}
+
+.mainimg {
+  height: 35em;
+  float: center;
+  width: 100%;
+}
+
+.work {
+  text-align: center;
+  border-radius: 10em;
+  padding-bottom: 3em;
+  background-color: lightgray;
+}
+
+.arrow {
+  color: blue;
+}
+
+.Instagram{
+  color: white;
+  background-color:black;
+  border-radius: 2em;
+}
+
+.Instagram:hover {
+  color: black;
+  background-color: white;
+  border-radius: 2em;
+}
+
+.footer {
+  color: white;
+  background-color: black;
+}
+
+.footer h1 {
+  font-size: 3em;
+}
+
+.footer li {
+  font-size: 2em;
+}
+
+  }
