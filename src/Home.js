@@ -36,35 +36,35 @@ Quam elementum pulvinar etiam non quam. Ultrices eros in cursus turpis massa tin
          <Carousel.Item>
             <img
               className="d-block w-100"
-              src="wifey4.jpg"
+              src="slide1.jpg"
               alt="First slide"
             />
          </Carousel.Item>
         <Carousel.Item>
             <img
               className="d-block w-100"
-              src="wifey4.jpg"
+              src="slide2.jpg"
               alt="Sixth slide"
             />
         </Carousel.Item>
         <Carousel.Item>
             <img
               className="d-block w-100"
-              src="wifey4.jpg"
+              src="slide3.jpg"
               alt="Seventh slide"
             />
         </Carousel.Item>
         <Carousel.Item>
             <img
               className="d-block w-100"
-              src="wifey4.jpg"
+              src="slide4.jpg"
               alt="Eight slide"
             />
         </Carousel.Item>
         <Carousel.Item>
             <img
               className="d-block w-100"
-              src="wifey4.jpg"
+              src="slide5.jpg"
               alt="Ninth slide"
             />
         </Carousel.Item>
