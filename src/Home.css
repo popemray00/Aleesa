@@ -86,8 +86,14 @@
     text-align: center;
   }
 
+  .mainbody h1 {
+    font-style: italic;
+    font: bolder;
+    text-decoration: underline;
+  }
+
   .mainbody p {
-    font-size: 20px;
+    font-size: 27px;
     padding: 0px 20px 0px 20px;
   }
 
