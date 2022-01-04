@@ -4,14 +4,11 @@ import { Parallax } from "react-parallax";
 import { FaInstagram } from "react-icons/fa";
 import Carouselslide from "./Carousel.js" 
 
-const image1 =
-    "https://pixnio.com/free-images/2017/02/25/2017-02-25-06-48-04.jpg"
-
 class Home extends React.Component {
   render() {
     return (
         <div className="styles">          
-          <Parallax bgImage={image1} strength={400}>
+          <Parallax bgImage={"aleesaheader.jpg"} strength={400}>
             <div style={{ height: 900 }}>
               <div className="textbox">Hair By <span id="name">Aleesa</span></div>
             </div>
