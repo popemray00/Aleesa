@@ -1,7 +1,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
 
-* For mobile phones: */
+/* For mobile phones: */
 [class*="col-"] {
   width: 100%;
 }
