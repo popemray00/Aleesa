@@ -1,3 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
+
+* For mobile phones: */
+[class*="col-"] {
+  width: 100%;
+}
+
+@media only screen and (min-width: 768px) {
+
+  /* Safari 4.0 - 8.0 */
+  @-webkit-keyframes example {
+    0%   {bottom:200px; top:0px;}
+    25%  {left:200px; top:0px;}
+  }
+
+  /* Standard syntax */
+  @keyframes example {
+    0%   { top:600px;}
+    25%  { top:0px;}
+  }
+
 .parallax {
     min-height: 700px; 
     background-attachment: fixed;
@@ -21,4 +42,5 @@
 
 #name {
     color: white;
+}
 }

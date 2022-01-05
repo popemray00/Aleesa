@@ -1,9 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
+
+* For mobile phones: */
+[class*="col-"] {
+  width: 100%;
+}
+
+@media only screen and (min-width: 768px) {
+
+  /* Safari 4.0 - 8.0 */
+  @-webkit-keyframes example {
+    0%   {bottom:200px; top:0px;}
+    25%  {left:200px; top:0px;}
+  }
+
+  /* Standard syntax */
+  @keyframes example {
+    0%   { top:600px;}
+    25%  { top:0px;}
+  }
+
+
 .mainbody {
-    width: 100%;
-    height: 100%;
-    text-align: center;
     border-style: dashed hidden dashed hidden;
     background-color: lightgray;
+  }
+
+  .mainimg {
+    padding: 3em 1em 2.1em .6em;
+    width: 31em;
+    float: left;
   }
 
   .mainbody h1 {
@@ -11,9 +36,7 @@
     font-family: "Dancing Script", cursive;
     text-align: center;
     font-style: italic;
-    font: bolder;
     text-decoration: underline;
-    text-shadow: black;
   }
 
   .mainbody p {
@@ -22,9 +45,4 @@
     text-align: center;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   }
-
-  .mainimg {
-    padding: 3em 1em 2.1em .6em;
-    width: 35%;
-    float: left;
-  }
+}
