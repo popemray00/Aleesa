@@ -1,0 +1,14 @@
+.footer {
+    color: white;
+    background-color: black;
+    font-family: "Dancing Script", cursive;
+  }
+
+  .footer h1 {
+    font-size: 5em;
+  }
+
+  .footer li {
+    font-size: 3em;
+  }
+
