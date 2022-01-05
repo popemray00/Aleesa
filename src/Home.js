@@ -3,7 +3,6 @@ import './Home.css';
 import { Parallax } from "react-parallax";
 import { FaInstagram } from "react-icons/fa";
 import Carouselslide from "./Carousel.js" ;
-//import Grid from "./Imggrid.js";
 
 class Home extends React.Component {
   render() {
@@ -33,8 +32,8 @@ class Home extends React.Component {
 
           <div className="work">
             <h1>My Work</h1>
-          <Carouselslide />
-            <a href="https://www.instagram.com/hair_by_aleesa/" target="blank"><FaInstagram size="10em" className="Instagram" /></a>
+              <Carouselslide />
+              <a href="https://www.instagram.com/hair_by_aleesa/" target="blank"><FaInstagram size="10em" className="Instagram" /></a>
           </div>
 
           <div className="footer">
