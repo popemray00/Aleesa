@@ -33,3 +33,22 @@
     padding-bottom: 1em;
   }
 }
+
+@media only screen and (max-width: 767px) {
+
+  .quote {
+    background: black;
+    color: white;
+    border-top: 3px;
+    border-color: white;
+    border-style: solid hidden solid hidden;
+  }
+  
+  .quote h2 {
+    font-size: 3em;
+    font-family: "Dancing script", cursive;
+    text-align: center;
+    padding-top: 1em;
+    padding-bottom: 1em;
+  }
+}

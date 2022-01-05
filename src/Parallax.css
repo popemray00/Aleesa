@@ -7,40 +7,67 @@
 
 @media only screen and (min-width: 768px) {
 
-  /* Safari 4.0 - 8.0 */
-  @-webkit-keyframes example {
+    /* Safari 4.0 - 8.0 */
+    @-webkit-keyframes example {
     0%   {bottom:200px; top:0px;}
     25%  {left:200px; top:0px;}
-  }
+    }
 
-  /* Standard syntax */
-  @keyframes example {
+    /* Standard syntax */
+    @keyframes example {
     0%   { top:600px;}
     25%  { top:0px;}
-  }
+    }
 
-.parallax {
-    min-height: 700px; 
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    .parallax {
+        min-height: 700px; 
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .textbox {
+        background: transparent;
+        font-size: 150px;
+        font-style: italic;
+        font-family: 'Dancing Script', cursive;;
+        padding: 20;
+        position: absolute;
+        top: 35%;
+        left: 78%;
+        color:white;
+        transform: translate(-50%,-50%);
+    }
+
+    #name {
+        color: white;
+    }
 }
 
-.textbox {
-    background: transparent;
-    font-size: 150px;
-    font-style: italic;
-    font-family: 'Dancing Script', cursive;;
-    padding: 20;
-    position: absolute;
-    top: 35%;
-    left: 78%;
-    color:white;
-    transform: translate(-50%,-50%);
-}
+@media only screen and (max-width: 767px) {
+    .parallax {
+        min-height: 700px; 
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+      
+      .textbox {
+        background: transparent;
+        font-size: 150px;
+        font-style: italic;
+        font-family: 'Dancing Script', cursive;
+        padding: 20;
+        position: absolute;
+        top: 35%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        color: white;
+      }
 
-#name {
-    color: white;
-}
+      #name {
+        color: white;
+      }
 }
